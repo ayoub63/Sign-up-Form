@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="script.js" defer></script>
+    <div class="image-and-text">
+        <div class="header"><img src="images/odin-lined.png" alt="Odin Logo" id="Odin-Img" />
+        <p id="Odin">Odin</p>
+    </div>
+        <p id="foot">
+        Photo by
+        <a href="https://unsplash.com/de/@abrkett">Adam Birkett </a>  on Unsplash
+      </p>
+      </div>
+      
+    </div>
+    <div class="main">
+
+    <div class="right-head"> 
+        <div class="caption">
+        <p>
+          This is not a real online service! You know you need something <br />
+          like this in your life to help you realize your deepest dreams.
+          <br/> Sign Up now to get started.
+        </p>
+        <br />
+        <p>You know you want to.</p>
+      </div>
+    </div>
+     
+      <form action="google.com" method="post">
+      
+    <div class="column">
+      
+        <div class="in"><label for="name">FIRST NAME</label>
+        <input type="text" name="first_name" id="first_name" pattern="[a-zA-Z]+" title="Please enter at least two lowercase letters"></div>
+       
+        <div class="in"><label for="email">EMAIL</label>
+        <input type="email" name="email" id="email"></div>
+        
+        <div class="in">   <label for="password">PASSWORD</label>
+        <input type="password" name="password" id="password" oninput="check()">
+      </div>
+     
+    </div>
+    <div class="column">
+        <div class="in"> <label for="last_name">LAST NAME</label>
+        <input type="text" name="last_name" id="last_name" pattern="[a-zA-Z]+" title="Please enter at least two lowercase letters"></div>
+       
+        <div class="in"> <label for="number">PHONE NUMBER</label>
+        <input type="number" name="phone_number" id="number" min="6">
+        </div>
+       <div class="in">  <label for="passwordconf">CONFIRM PASSWORD</label>
+        <input type="password" name="passwordconf" id="passwordconf" minlength="2" oninput="check()"></div>
+      
+    </div>
+</form>
+  <div class="footer">
+  <button class = btn type="submit">Create Account</button>
+    <p>Already have an account? <a href="#">Log in</a></p>
+</div>
+  </body>
+</html>

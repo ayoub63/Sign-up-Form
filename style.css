@@ -1,0 +1,258 @@
+@font-face {
+  font-family: "Norse";
+  src: url("Fonts/Norse-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  display: flex;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.image-and-text {
+  background-image: url(images/adam-birkett-RaVwyM3XK7Y-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex: 1;
+  height: 100vh;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  opacity: 0.4;
+  color: white;
+  margin-top: 200px;
+  height: 150px;
+}
+
+#Odin {
+  font-family: "Norse", sans-serif;
+  font-size: 80px;
+  margin: 0;
+  padding: 10px;
+}
+
+#tower {
+  max-width: 500px;
+  height: 100%;
+}
+
+#foot {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#Odin-Img {
+  height: 90px;
+}
+
+.caption {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.right-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  margin-left: 40px;
+  height: 400px;
+}
+
+form {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  min-width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+label {
+  display: block;
+  margin-left: 5px;
+}
+
+.column input {
+  border-color: #e5e7eb;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+input:valid {
+  border: 4px solid #5cb85c;
+}
+
+input:invalid {
+  border: 4px solid #d9534f;
+}
+
+.footer {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.footer p {
+  margin-top: 40px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.footer a {
+  color: black;
+}
+
+.btn {
+  color: white;
+  background-color: #596d48;
+  border-radius: 4px;
+  width: 200px;
+  height: 40px;
+}
